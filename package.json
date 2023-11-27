@@ -1,0 +1,23 @@
+{
+  "name": "cypress-project-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "esbuild": "^0.19.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step-definitions/*.js"
+  },
+  "description": ""
+}
